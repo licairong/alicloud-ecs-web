@@ -1,9 +1,9 @@
-vairable "key_name" {
+variable "key_name" {
   default = "my_key_name"
   description = "key_pair_name"
 }
 
-vairable "public_key" {
+variable "public_key" {
   default = ""
   description = "public_key"
 }
