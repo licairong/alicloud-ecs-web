@@ -3,8 +3,8 @@ provider "alicloud" {
 }
 
 resource "alicloud_ecs_key_pair" "publickey" {
-  key_pair_name = "my_public_key"
-  public_key    = ""
+  key_pair_name = var.key_name
+  public_key    = var.public_key
 }
 
 resource "alicloud_security_group" "group" {
