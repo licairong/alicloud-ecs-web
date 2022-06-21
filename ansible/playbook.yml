@@ -10,7 +10,7 @@
         delay: 20
         timeout: 60
     - name: ensure nginx is at the latest version
-      apt:
+      yum:
         name: nginx
         state: latest
       become: yes
