@@ -48,7 +48,7 @@ resource "alicloud_instance" "instance" {
   system_disk_category       = "cloud_efficiency"
   system_disk_name           = "test_foo_system_disk_name"
   system_disk_description    = "test_foo_system_disk_description"
-  image_id                   = "ubuntu_18_04_64_20G_alibase_20190624.vhd"
+  image_id                   = "centos_8_4_x64_20G_alibase_20210824.vhd"
   instance_name              = "test_foo"
   vswitch_id                 = alicloud_vswitch.vswitch.id
   internet_max_bandwidth_out = 1
